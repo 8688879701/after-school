@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { MessageCircle } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -102,6 +103,21 @@ const Contact = () => {
                       <div className="text-muted-foreground">info@brightminds.edu</div>
                     </div>
                   </div>
+                  
+                  <a 
+                    href="https://wa.me/918688879701" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-3 p-3 rounded-lg bg-[#25D366]/10 hover:bg-[#25D366]/20 transition-colors group"
+                  >
+                    <div className="w-10 h-10 bg-[#25D366]/20 rounded-lg flex items-center justify-center group-hover:bg-[#25D366]/30 transition-colors">
+                      <MessageCircle className="w-5 h-5 text-[#25D366]" />
+                    </div>
+                    <div>
+                      <div className="font-medium text-foreground">WhatsApp</div>
+                      <div className="text-muted-foreground">+91 8688879701</div>
+                    </div>
+                  </a>
                 </div>
               </CardContent>
             </Card>
