@@ -17,58 +17,7 @@ const Contact = () => {
           </p>
         </div>
         
-        <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
-          <Card className="bg-gradient-card border-0 shadow-card">
-            <CardHeader>
-              <CardTitle className="font-heading text-2xl text-foreground">Send us a Message</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-4">
-                <div className="space-y-2">
-                  <label className="text-sm font-medium text-foreground">Parent/Guardian Name</label>
-                  <Input placeholder="Your full name" />
-                </div>
-                <div className="space-y-2">
-                  <label className="text-sm font-medium text-foreground">Phone Number</label>
-                  <Input placeholder="(555) 123-4567" />
-                </div>
-              </div>
-              
-              <div className="space-y-2">
-                <label className="text-sm font-medium text-foreground">Email Address</label>
-                <Input type="email" placeholder="your.email@example.com" />
-              </div>
-              
-              <div className="grid md:grid-cols-2 gap-4">
-                <div className="space-y-2">
-                  <label className="text-sm font-medium text-foreground">Student Name</label>
-                  <Input placeholder="Student's name" />
-                </div>
-                <div className="space-y-2">
-                  <label className="text-sm font-medium text-foreground">Grade Level</label>
-                  <Input placeholder="e.g., 8th grade" />
-                </div>
-              </div>
-              
-              <div className="space-y-2">
-                <label className="text-sm font-medium text-foreground">Subjects of Interest</label>
-                <Input placeholder="Math, Science, English, etc." />
-              </div>
-              
-              <div className="space-y-2">
-                <label className="text-sm font-medium text-foreground">Message</label>
-                <Textarea 
-                  placeholder="Tell us about your child's learning goals and any specific areas where they need support..."
-                  className="min-h-[120px]"
-                />
-              </div>
-              
-              <Button className="w-full bg-gradient-hero text-primary-foreground shadow-glow hover:scale-105 transition-all duration-300 font-semibold">
-                Schedule Free Consultation
-              </Button>
-            </CardContent>
-          </Card>
-          
+        <div className="max-w-4xl mx-auto">
           <div className="space-y-8">
             <Card className="bg-gradient-card border-0 shadow-card">
               <CardContent className="p-6">
@@ -80,7 +29,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-medium text-foreground">Location</div>
-                      <div className="text-muted-foreground">NGO Colony, Nandyal 5185</div>
+                      <div className="text-muted-foreground">NGO Colony, Nandyal, 518502</div>
                     </div>
                   </div>
                   

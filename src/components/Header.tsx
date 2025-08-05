@@ -17,9 +17,14 @@ const Header = () => {
           <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors">Contact</a>
         </nav>
         
-        <Button className="bg-gradient-hero text-primary-foreground shadow-glow hover:scale-105 transition-transform">
-          Enroll Now
-        </Button>
+        <a 
+          href="https://wa.me/918500506578" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="bg-[#25D366] hover:bg-[#1da851] text-white px-4 py-2 rounded-lg font-semibold transition-colors"
+        >
+          WhatsApp
+        </a>
       </div>
     </header>
   );

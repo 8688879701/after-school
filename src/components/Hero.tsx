@@ -17,35 +17,16 @@ const Hero = () => {
               </p>
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                size="lg" 
-                className="bg-gradient-hero text-primary-foreground shadow-glow hover:scale-105 transition-all duration-300 font-semibold"
+            <div className="pt-8">
+              <a 
+                href="https://wa.me/918500506578" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center space-x-3 bg-[#25D366] hover:bg-[#1da851] text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 hover:scale-105"
               >
-                Start Your Journey
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline" 
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-              >
-                Learn More
-              </Button>
-            </div>
-            
-            <div className="flex items-center space-x-8 pt-8">
-              <div className="text-center">
-                <div className="font-heading font-bold text-3xl text-primary">500+</div>
-                <div className="text-sm text-muted-foreground">Students Helped</div>
-              </div>
-              <div className="text-center">
-                <div className="font-heading font-bold text-3xl text-accent">15+</div>
-                <div className="text-sm text-muted-foreground">Expert Tutors</div>
-              </div>
-              <div className="text-center">
-                <div className="font-heading font-bold text-3xl text-success">98%</div>
-                <div className="text-sm text-muted-foreground">Success Rate</div>
-              </div>
+                <span>📱</span>
+                <span>Connect on WhatsApp</span>
+              </a>
             </div>
           </div>
           

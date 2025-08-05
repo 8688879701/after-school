@@ -15,7 +15,7 @@ const features = [
   {
     icon: "👥",
     title: "Small Class Sizes",
-    description: "Maximum 6 students per class for personalized attention"
+    description: "Maximum 10 students per tutor for personalized attention"
   },
   {
     icon: "📊",
@@ -116,25 +116,6 @@ const About = () => {
           </div>
         </div>
         
-        <div className="bg-gradient-to-r from-primary/10 via-accent/10 to-success/10 rounded-2xl p-8 md:p-12 text-center">
-          <h3 className="font-heading font-bold text-3xl text-foreground mb-6">
-            Why Parents Choose Us
-          </h3>
-          <div className="grid md:grid-cols-3 gap-8 text-center">
-            <div>
-              <div className="text-3xl font-bold text-primary mb-2">500+</div>
-              <div className="text-muted-foreground">Students Helped</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-primary mb-2">98%</div>
-              <div className="text-muted-foreground">Improvement Rate</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-primary mb-2">5+</div>
-              <div className="text-muted-foreground">Years Experience</div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
