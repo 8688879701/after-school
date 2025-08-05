@@ -10,7 +10,7 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-heading font-bold text-4xl text-foreground mb-4">
-            Get <span className="text-primary">Started Today</span>
+            Contact <span className="text-primary">EASY LEARN</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Ready to help your child succeed? Contact us for a free consultation and assessment.
@@ -80,7 +80,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-medium text-foreground">Location</div>
-                      <div className="text-muted-foreground">123 Education Lane, Learning City, LC 12345</div>
+                      <div className="text-muted-foreground">NGO Colony, Nandyal 5185</div>
                     </div>
                   </div>
                   
@@ -90,7 +90,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-medium text-foreground">Phone</div>
-                      <div className="text-muted-foreground">(555) 123-BRIGHT</div>
+                      <div className="text-muted-foreground">8500 50 65 78 / 75</div>
                     </div>
                   </div>
                   
@@ -100,12 +100,12 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-medium text-foreground">Email</div>
-                      <div className="text-muted-foreground">info@brightminds.edu</div>
+                      <div className="text-muted-foreground">easylearnacademy@gmail.com</div>
                     </div>
                   </div>
                   
                   <a 
-                    href="https://wa.me/918688879701" 
+                    href="https://wa.me/918500506578" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center space-x-3 p-3 rounded-lg bg-[#25D366]/10 hover:bg-[#25D366]/20 transition-colors group"
@@ -115,7 +115,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-medium text-foreground">WhatsApp</div>
-                      <div className="text-muted-foreground">+91 8688879701</div>
+                      <div className="text-muted-foreground">8500 50 65 78</div>
                     </div>
                   </a>
                 </div>

@@ -40,7 +40,7 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="font-heading font-bold text-4xl text-foreground mb-4">
-            Why Choose <span className="text-primary">BrightMinds</span>?
+            Why Choose <span className="text-primary">EASY LEARN</span>?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             We're more than just a tutoring center. We're your partner in your child's educational journey, 
@@ -83,8 +83,8 @@ const About = () => {
               Our Mission
             </h3>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              At BrightMinds, we believe every student has the potential to excel. Our mission is to provide 
-              exceptional after-school tutoring that not only improves grades but builds confidence, 
+              At EASY LEARN, we believe every student has the potential to excel. Our mission is to provide 
+              exceptional after-school tutoring that takes students from basics to brilliance, building confidence, 
               critical thinking skills, and a lifelong love of learning.
             </p>
             <div className="grid md:grid-cols-2 gap-4">

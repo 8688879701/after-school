@@ -9,11 +9,11 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h1 className="font-heading font-bold text-5xl lg:text-6xl text-foreground leading-tight">
-                Unlock Your Child's
-                <span className="bg-gradient-hero bg-clip-text text-transparent"> Potential</span>
+                EASY LEARN
+                <span className="bg-gradient-hero bg-clip-text text-transparent"> After School Academy</span>
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Premium after-school tutoring and enrichment programs designed to help students excel academically and build confidence for life.
+                From basics to brilliance - Premium tutoring programs designed to help students excel academically and build confidence for life.
               </p>
             </div>
             
@@ -52,8 +52,8 @@ const Hero = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-glow">
               <img 
-                src={heroImage} 
-                alt="Students learning together" 
+                src="/lovable-uploads/561a1032-8b76-40e4-8800-099927fadef2.png" 
+                alt="EASY LEARN After School Academy Logo" 
                 className="w-full h-auto object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
