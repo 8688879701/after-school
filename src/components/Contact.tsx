@@ -24,7 +24,7 @@ const Contact = () => {
                 <h3 className="font-heading font-semibold text-xl text-foreground mb-4">Contact Information</h3>
                 <div className="space-y-4">
                   <a 
-                    href="https://maps.google.com/?q=NGO+Colony,+Nandyal,+518502" 
+                    href="https://maps.app.goo.gl/91zV3uEaooeDQDGR9?g_st=aw" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="flex items-center space-x-3 p-3 rounded-lg bg-blue-500/10 hover:bg-blue-500/20 transition-colors group cursor-pointer"
@@ -86,7 +86,7 @@ const Contact = () => {
                         Visit Our Academy
                       </div>
                       <a 
-                        href="https://maps.google.com/?q=NGO+Colony,+Nandyal,+518502" 
+                        href="https://maps.app.goo.gl/91zV3uEaooeDQDGR9?g_st=aw" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-base font-medium mt-1 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent hover:from-purple-700 hover:to-pink-700 transition-colors cursor-pointer"
