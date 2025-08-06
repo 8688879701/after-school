@@ -23,15 +23,20 @@ const Contact = () => {
               <CardContent className="p-6">
                 <h3 className="font-heading font-semibold text-xl text-foreground mb-4">Contact Information</h3>
                 <div className="space-y-4">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                      <span className="text-primary">📍</span>
+                  <a 
+                    href="https://maps.google.com/?q=NGO+Colony,+Nandyal,+518502" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center space-x-3 p-3 rounded-lg bg-blue-500/10 hover:bg-blue-500/20 transition-colors group cursor-pointer"
+                  >
+                    <div className="w-10 h-10 bg-blue-500/20 rounded-lg flex items-center justify-center group-hover:bg-blue-500/30 transition-colors">
+                      <span className="text-blue-600">📍</span>
                     </div>
                     <div>
-                      <div className="font-medium text-foreground">Location</div>
+                      <div className="font-medium text-foreground">Location (Click to view on map)</div>
                       <div className="text-muted-foreground">NGO Colony, Nandyal, 518502</div>
                     </div>
-                  </div>
+                  </a>
                   
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
@@ -74,9 +79,14 @@ const Contact = () => {
                       <div className="font-semibold text-lg bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                         Visit Our Academy
                       </div>
-                      <div className="text-base font-medium mt-1 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                      <a 
+                        href="https://maps.google.com/?q=NGO+Colony,+Nandyal,+518502" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-base font-medium mt-1 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent hover:from-purple-700 hover:to-pink-700 transition-colors cursor-pointer"
+                      >
                         NGO Colony, Nandyal, 518502
-                      </div>
+                      </a>
                     </div>
                   </div>
                 </div>
