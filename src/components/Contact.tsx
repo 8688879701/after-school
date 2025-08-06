@@ -67,6 +67,18 @@ const Contact = () => {
                       <div className="text-muted-foreground">8500 50 65 78</div>
                     </div>
                   </a>
+                  
+                  <div className="mt-4 p-4 rounded-lg bg-gradient-to-r from-blue-500/10 via-purple-500/10 to-pink-500/10 border border-gradient-to-r from-blue-300/20 to-pink-300/20">
+                    <div className="text-center">
+                      <div className="text-2xl mb-2">📍</div>
+                      <div className="font-semibold text-lg bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                        Visit Our Academy
+                      </div>
+                      <div className="text-base font-medium mt-1 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+                        NGO Colony, Nandyal, 518502
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </CardContent>
             </Card>
