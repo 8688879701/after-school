@@ -3,14 +3,7 @@ import { Button } from "@/components/ui/button";
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b">
-      <div className="container mx-auto px-4 py-4 flex items-center justify-between relative">
-        <div className="absolute top-2 right-4 w-20 h-20 md:w-24 md:h-24">
-          <img 
-            src="/lovable-uploads/3b0b7585-65d2-43ab-8c89-66cbfd328547.png" 
-            alt="Easy Learn Academy Promotional Banner" 
-            className="w-full h-full object-contain rounded-lg shadow-lg"
-          />
-        </div>
+      <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center">
             <span className="text-primary-foreground font-bold text-lg">E</span>

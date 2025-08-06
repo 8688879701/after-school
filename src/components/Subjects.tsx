@@ -37,18 +37,6 @@ const subjects = [
     icon: "📝",
     levels: ["Basic", "Intermediate", "Advanced", "Literature"]
   },
-  {
-    name: "Environmental Science",
-    description: "Understanding nature, ecology, and environmental conservation",
-    icon: "🌱",
-    levels: ["Elementary", "Middle School", "High School", "Advanced"]
-  },
-  {
-    name: "Art & Craft",
-    description: "Creative expression through drawing, painting, and handicrafts",
-    icon: "🎨",
-    levels: ["Basic", "Intermediate", "Advanced", "Competition Prep"]
-  }
 ];
 
 const Subjects = () => {

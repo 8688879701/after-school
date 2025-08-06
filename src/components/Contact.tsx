@@ -38,25 +38,31 @@ const Contact = () => {
                     </div>
                   </a>
                   
-                  <div className="flex items-center space-x-3">
-                    <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                      <span className="text-primary">📞</span>
+                  <a 
+                    href="tel:+918500506578" 
+                    className="flex items-center space-x-3 p-3 rounded-lg bg-green-500/10 hover:bg-green-500/20 transition-colors group cursor-pointer"
+                  >
+                    <div className="w-10 h-10 bg-green-500/20 rounded-lg flex items-center justify-center group-hover:bg-green-500/30 transition-colors">
+                      <span className="text-green-600">📞</span>
                     </div>
                     <div>
-                      <div className="font-medium text-foreground">Phone</div>
+                      <div className="font-medium text-foreground">Phone (Click to call)</div>
                       <div className="text-muted-foreground">8500 50 65 78 / 75</div>
                     </div>
-                  </div>
+                  </a>
                   
-                  <div className="flex items-center space-x-3">
-                    <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                      <span className="text-primary">✉️</span>
+                  <a 
+                    href="mailto:easylearnacademy@gmail.com" 
+                    className="flex items-center space-x-3 p-3 rounded-lg bg-orange-500/10 hover:bg-orange-500/20 transition-colors group cursor-pointer"
+                  >
+                    <div className="w-10 h-10 bg-orange-500/20 rounded-lg flex items-center justify-center group-hover:bg-orange-500/30 transition-colors">
+                      <span className="text-orange-600">✉️</span>
                     </div>
                     <div>
-                      <div className="font-medium text-foreground">Email</div>
+                      <div className="font-medium text-foreground">Email (Click to send)</div>
                       <div className="text-muted-foreground">easylearnacademy@gmail.com</div>
                     </div>
-                  </div>
+                  </a>
                   
                   <a 
                     href="https://wa.me/918500506578" 
@@ -93,25 +99,6 @@ const Contact = () => {
               </CardContent>
             </Card>
             
-            <Card className="bg-gradient-card border-0 shadow-card">
-              <CardContent className="p-6">
-                <h3 className="font-heading font-semibold text-xl text-foreground mb-4">Operating Hours</h3>
-                <div className="space-y-3">
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">Monday - Friday</span>
-                    <span className="font-medium text-foreground">3:00 PM - 8:00 PM</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">Saturday</span>
-                    <span className="font-medium text-foreground">9:00 AM - 5:00 PM</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-muted-foreground">Sunday</span>
-                    <span className="font-medium text-foreground">1:00 PM - 6:00 PM</span>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
             
             <Card className="bg-gradient-to-r from-success/10 to-accent/10 border-0 shadow-card">
               <CardContent className="p-6 text-center">
