@@ -99,15 +99,24 @@ export default {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
 				'float': 'float 6s ease-in-out infinite',
-				'glow': 'glow 2s ease-in-out infinite alternate'
+				'bounce-gentle': 'bounce-gentle 2s ease-in-out infinite',
+				'wiggle': 'wiggle 1s ease-in-out infinite',
+				'pulse-rainbow': 'pulse-rainbow 3s ease-in-out infinite',
+				'slide-in-bounce': 'slide-in-bounce 0.8s ease-out',
+				'magical-spin': 'magical-spin 4s ease-in-out infinite',
+				'rainbow-text': 'rainbow-text 3s ease-in-out infinite'
 			},
 			backgroundImage: {
 				'gradient-hero': 'var(--gradient-hero)',
-				'gradient-card': 'var(--gradient-card)'
+				'gradient-card': 'var(--gradient-card)',
+				'gradient-rainbow': 'var(--gradient-rainbow)',
+				'gradient-fun': 'var(--gradient-fun)'
 			},
 			boxShadow: {
 				'glow': 'var(--shadow-glow)',
-				'card': 'var(--shadow-card)'
+				'card': 'var(--shadow-card)',
+				'rainbow': 'var(--shadow-rainbow)',
+				'magical': 'var(--shadow-magical)'
 			}
 		}
 	},

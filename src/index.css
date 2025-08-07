@@ -8,46 +8,51 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 0 0% 0%;
+    /* Kid-friendly bright background */
+    --background: 200 100% 98%;
+    --foreground: 215 25% 27%;
 
-    --card: 0 0% 98%;
-    --card-foreground: 0 0% 5%;
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 27%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 0%;
+    --popover-foreground: 215 25% 27%;
 
-    /* Black and white theme */
-    --primary: 0 0% 0%;
+    /* Vibrant kid-friendly colors */
+    --primary: 262 83% 58%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 0 0% 20%;
+    --primary-glow: 280 100% 70%;
 
-    --secondary: 0 0% 95%;
-    --secondary-foreground: 0 0% 10%;
+    --secondary: 338 100% 85%;
+    --secondary-foreground: 215 25% 27%;
 
-    --accent: 0 0% 85%;
-    --accent-foreground: 0 0% 10%;
+    --accent: 45 100% 75%;
+    --accent-foreground: 215 25% 27%;
 
-    --success: 0 0% 30%;
+    --success: 142 76% 36%;
     --success-foreground: 0 0% 100%;
 
-    --muted: 0 0% 90%;
-    --muted-foreground: 0 0% 40%;
+    --muted: 200 50% 95%;
+    --muted-foreground: 215 25% 47%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 85%;
-    --input: 0 0% 90%;
-    --ring: 0 0% 0%;
+    --border: 200 30% 88%;
+    --input: 200 30% 92%;
+    --ring: 262 83% 58%;
 
-    /* Custom gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(0 0% 0%), hsl(0 0% 20%));
-    --gradient-card: linear-gradient(145deg, hsl(0 0% 98%), hsl(0 0% 95%));
+    /* Kid-friendly gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(262 83% 58%), hsl(280 100% 70%), hsl(338 100% 65%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(200 50% 98%));
+    --gradient-rainbow: linear-gradient(90deg, hsl(262 83% 58%), hsl(280 100% 70%), hsl(338 100% 65%), hsl(45 100% 75%), hsl(142 76% 56%));
+    --gradient-fun: linear-gradient(45deg, hsl(338 100% 85%), hsl(45 100% 85%));
     
-    /* Custom shadows */
-    --shadow-glow: 0 10px 40px -10px hsl(0 0% 0% / 0.2);
-    --shadow-card: 0 4px 20px -2px hsl(0 0% 0% / 0.1);
+    /* Magical shadows */
+    --shadow-glow: 0 10px 40px -10px hsl(262 83% 58% / 0.3);
+    --shadow-card: 0 8px 25px -5px hsl(262 83% 58% / 0.15);
+    --shadow-rainbow: 0 10px 30px -5px hsl(280 100% 70% / 0.4);
+    --shadow-magical: 0 0 50px hsl(280 100% 70% / 0.6);
 
     --radius: 0.5rem;
 
@@ -117,12 +122,44 @@ All colors MUST be HSL.
   }
 }
 
+/* Kid-friendly animations */
 @keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-10px); }
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-15px) rotate(3deg); }
 }
 
-@keyframes glow {
-  0% { box-shadow: 0 0 20px hsl(217 91% 60% / 0.3); }
-  100% { box-shadow: 0 0 30px hsl(217 91% 60% / 0.5); }
+@keyframes bounce-gentle {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(3deg); }
+  75% { transform: rotate(-3deg); }
+}
+
+@keyframes pulse-rainbow {
+  0%, 100% { box-shadow: 0 0 20px hsl(262 83% 58% / 0.4); }
+  25% { box-shadow: 0 0 25px hsl(280 100% 70% / 0.5); }
+  50% { box-shadow: 0 0 30px hsl(338 100% 65% / 0.6); }
+  75% { box-shadow: 0 0 25px hsl(45 100% 75% / 0.5); }
+}
+
+@keyframes slide-in-bounce {
+  0% { transform: translateX(-100px) scale(0.8); opacity: 0; }
+  60% { transform: translateX(10px) scale(1.05); opacity: 1; }
+  100% { transform: translateX(0) scale(1); opacity: 1; }
+}
+
+@keyframes magical-spin {
+  0% { transform: rotate(0deg) scale(1); }
+  50% { transform: rotate(180deg) scale(1.1); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+
+@keyframes rainbow-text {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
