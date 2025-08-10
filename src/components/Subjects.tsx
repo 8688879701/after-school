@@ -7,49 +7,37 @@ const subjects = [
     name: "Mathematics",
     description: "From basic arithmetic to advanced calculus, building strong mathematical foundations with proven teaching methods",
     icon: "🔢",
-    levels: ["Elementary", "Middle School", "High School", "College Prep"],
-    successRate: "95%",
-    studentsHelped: "150+"
+    levels: ["Elementary", "Middle School", "High School", "College Prep"]
   },
   {
     name: "Science",
     description: "Physics, Chemistry, and Biology with hands-on experiments, practical learning, and exam preparation",
     icon: "🔬",
-    levels: ["General Science", "Physics", "Chemistry", "Biology"],
-    successRate: "92%",
-    studentsHelped: "120+"
+    levels: ["General Science", "Physics", "Chemistry", "Biology"]
   },
   {
     name: "English",
     description: "Reading comprehension, writing skills, grammar, and literature analysis for academic excellence",
     icon: "📚",
-    levels: ["Elementary", "Middle School", "High School", "Advanced"],
-    successRate: "97%",
-    studentsHelped: "200+"
+    levels: ["Elementary", "Middle School", "High School", "Advanced"]
   },
   {
     name: "Social Studies",
     description: "History, Geography, Civics, and Social Sciences for comprehensive understanding and better grades",
     icon: "🌍",
-    levels: ["World History", "Local History", "Geography", "Civics"],
-    successRate: "90%",
-    studentsHelped: "100+"
+    levels: ["World History", "Local History", "Geography", "Civics"]
   },
   {
     name: "Telugu",
     description: "Native language proficiency, literature, and communication skills with cultural understanding",
     icon: "🗣️",
-    levels: ["Basic", "Intermediate", "Advanced", "Literature"],
-    successRate: "98%",
-    studentsHelped: "180+"
+    levels: ["Basic", "Intermediate", "Advanced", "Literature"]
   },
   {
     name: "Hindi",
     description: "Second language learning with focus on reading, writing, speaking, and board exam preparation",
     icon: "📝",
-    levels: ["Basic", "Intermediate", "Advanced", "Literature"],
-    successRate: "94%",
-    studentsHelped: "130+"
+    levels: ["Basic", "Intermediate", "Advanced", "Literature"]
   },
 ];
 
@@ -96,28 +84,6 @@ const Subjects = () => {
           </div>
         </div>
 
-        {/* Success Stats */}
-        <div className="bg-gradient-card rounded-2xl p-8 mb-16 border border-primary/20">
-          <div className="grid md:grid-cols-4 gap-6 text-center">
-            <div>
-              <div className="text-3xl font-bold text-primary mb-2">98%</div>
-              <div className="text-sm text-muted-foreground">Student Satisfaction</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-primary mb-2">1000+</div>
-              <div className="text-sm text-muted-foreground">Students Helped</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-primary mb-2">5+</div>
-              <div className="text-sm text-muted-foreground">Years Experience</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold text-primary mb-2">95%</div>
-              <div className="text-sm text-muted-foreground">Grade Improvement</div>
-            </div>
-          </div>
-        </div>
-        
         {/* Subjects Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {subjects.map((subject, index) => (
@@ -131,19 +97,6 @@ const Subjects = () => {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-muted-foreground text-center">{subject.description}</p>
-                
-                {/* Success Metrics */}
-                <div className="grid grid-cols-2 gap-4 p-4 bg-primary/5 rounded-lg">
-                  <div className="text-center">
-                    <div className="font-bold text-primary text-lg">{subject.successRate}</div>
-                    <div className="text-xs text-muted-foreground">Success Rate</div>
-                  </div>
-                  <div className="text-center">
-                    <div className="font-bold text-primary text-lg">{subject.studentsHelped}</div>
-                    <div className="text-xs text-muted-foreground">Students Helped</div>
-                  </div>
-                </div>
-
                 {/* Available Levels */}
                 <div className="space-y-2">
                   <div className="text-sm font-medium text-primary text-center">Available Levels:</div>

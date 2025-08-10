@@ -87,12 +87,6 @@ const About = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent rounded-3xl"></div>
             </div>
-            <div className="absolute -bottom-8 -right-8 bg-gradient-hero rounded-2xl p-6 shadow-magical animate-pulse-rainbow" style={{animationDuration: '4s'}}>
-              <div className="text-center text-primary-foreground">
-                <div className="font-bold text-3xl animate-bounce-gentle" style={{animationDuration: '3s'}}>98%</div>
-                <div className="text-sm opacity-90">Success Rate! 🎉</div>
-              </div>
-            </div>
             {/* Fun floating badges */}
             <div className="absolute -top-4 -left-4 w-16 h-16 bg-accent rounded-full flex items-center justify-center shadow-rainbow animate-wiggle" style={{animationDuration: '5s'}}>
               <span className="text-xl">🏆</span>
