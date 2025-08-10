@@ -7,6 +7,17 @@
   <meta name="description" content="Premium after-school tutoring and enrichment programs for students of all ages" />
   <meta name="author" content="BrightMinds After School" />
   
+  <script>
+    // Handle GitHub Pages client-side routing
+    (function(){
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect != location.href) {
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
+  
   <!-- Open Graph Meta Tags for social media -->
   <meta property="og:title" content="Instantly Site-01" />
   <meta property="og:description" content="Lovable Generated Project" />
