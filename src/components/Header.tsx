@@ -5,11 +5,9 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-primary/20 shadow-card">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-3 animate-slide-in-bounce">
-          <img 
-            src="/src/assets/easy-learn-logo.jpg" 
-            alt="Easy Learn Academy Logo" 
-            className="w-10 h-10 rounded-xl shadow-rainbow animate-wiggle object-cover"
-          />
+          <div className="w-10 h-10 bg-gradient-hero rounded-xl flex items-center justify-center shadow-rainbow animate-wiggle">
+            <span className="text-primary-foreground font-bold text-xl">🎓</span>
+          </div>
           <span className="font-heading font-bold text-xl text-foreground hover:text-primary transition-colors">EASY LEARN</span>
         </div>
         
