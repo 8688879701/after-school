@@ -1,8 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
 import { MessageCircle } from "lucide-react";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
@@ -18,7 +17,9 @@ const Contact = () => {
         </div>
         
         <div className="max-w-4xl mx-auto">
-          <div className="space-y-8">
+          <div className="grid lg:grid-cols-2 gap-8">
+            <ContactForm />
+            
             <Card className="bg-gradient-card border-0 shadow-card">
               <CardContent className="p-6">
                 <h3 className="font-heading font-semibold text-xl text-foreground mb-4">Contact Information</h3>
@@ -98,9 +99,10 @@ const Contact = () => {
                 </div>
               </CardContent>
             </Card>
-            
-            
-            <Card className="bg-gradient-to-r from-success/10 to-accent/10 border-0 shadow-card">
+          </div>
+          
+          <div className="mt-8">
+            <Card className="bg-gradient-to-r from-success/10 to-accent/10 border-0 shadow-card max-w-md mx-auto">
               <CardContent className="p-6 text-center">
                 <div className="text-3xl mb-3">🎉</div>
                 <h3 className="font-heading font-semibold text-lg text-foreground mb-2">Special Offer</h3>
